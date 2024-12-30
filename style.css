@@ -46,22 +46,25 @@ p {
 }
 
 .cta {
-	display: inline-block;
-	padding: 10px 30px;
-	color: white;
-	background-color: transparent;
-	border: 2px solid crimson;
-	font-size: 2rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	margin-top: 30px;
-	transition: 0.3s ease;
-	transition-property: background-color, color;
+    display: inline-block;
+    padding: 10px 30px;
+    color: crimson;  /* Set text color to crimson for visibility */
+    background-color: transparent;  /* Transparent background */
+    border: 2px solid crimson;  /* Crimson border */
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
 }
+
+/* Hover state */
 .cta:hover {
-	color: white;
-	background-color: crimson;
+    color: white;  /* White text color when hovered */
+    background-color: crimson;  /* Crimson background on hover */
 }
+
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -274,7 +277,20 @@ p {
 
 /* Services Section */
 /* Services Section */
+/* Change Background of #education-expertise */
+#education-expertise {
+    background-color: #eaf6ff; /* Very light blue background for a calm, fresh feel */
+    background-image: linear-gradient(120deg, #a0c4ff, #b2f7ef); /* Soft cool gradient with light blues and teals */
+    background-size: cover; /* Ensure the background covers the section */
+    background-position: center; /* Center the background */
+    padding: 100px 0; /* Maintain existing padding */
+}
+
+
+
+
 #education-expertise .education-expertise {
+
     display: flex;                /* Added display: flex for the container */
     flex-direction: column;       /* Keeps items in a column layout */
     text-align: center;           /* Centers text inside container */
@@ -374,6 +390,28 @@ p {
 /* End Services Section */
 
 /* Projects section */
+/* Projects Section Background Update */
+/* Projects Section Background Update */
+/* About Section Background Update */
+#about {
+    background-color: #f8f9fa; /* Light neutral grey background */
+    background-image: linear-gradient(135deg, #e0eafc, #cfdef3); /* Subtle blue-grey gradient */
+    background-size: cover; /* Ensures the background covers the section */
+    background-position: center; /* Centers the background */
+    padding: 100px 20px; /* Maintain existing padding */
+}
+
+/* Projects Section Background Update */
+#projects {
+    background-color: #f8f9fa; /* Light neutral grey background */
+    background-image: linear-gradient(120deg, #d4fc79, #96e6a1); /* Soft green gradient for a fresh and clean look */
+    background-size: cover; /* Ensures the background covers the section */
+    background-position: center; /* Centers the background */
+    padding: 100px 0; /* Maintain existing padding */
+}
+
+
+
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -495,6 +533,7 @@ p {
 /* End About Section */
 
 /* contact Section */
+
 #contact .contact {
     display: flex;
     flex-direction: column;
